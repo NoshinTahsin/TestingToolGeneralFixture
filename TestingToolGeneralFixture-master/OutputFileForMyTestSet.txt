@@ -1,0 +1,946 @@
+button clicked
+
+
+ProjectDir: C:\Users\noshi\Documents\Comic Life\TestSet
+***************************************
+
+
+File Path (BuildCompilationUnit) : C:\Users\noshi\Documents\Comic Life\TestSet\Class0Test.java
+
+Parent of the class: Class0Test.java : Class1test.java
+
+Parent of the class: Class1test.java : TestClass2.java
+
+Parent of the class: TestClass2.java : LastExtendedTest.java
+
+List of setup methods: 
+
+
+Setup method for Class: Class0Test.java 
+
+@Before
+public void setUp() throws Exception {
+    System.out.println("Smelly Class");
+    a = 34;
+    b = 183.5;
+    c = "smell";
+}
+
+
+Setup method for Class: Class1test.java 
+
+@Before
+public void setUp() throws Exception {
+    d = 76868;
+    e = 24323.5;
+    f = "extended";
+}
+
+
+Setup method for Class: TestClass2.java 
+
+@Before
+public void setUp() throws Exception {
+    tc1 = 665645543;
+    tc2 = 6765765678;
+}
+
+
+Setup method for Class: LastExtendedTest.java 
+
+@Before
+public void setUp() throws Exception {
+    last = "Not extended";
+}
+
+Examining setup method for : Class0Test.java
+
+Optional[{
+    System.out.println("Smelly Class");
+    a = 34;
+    b = 183.5;
+    c = "smell";
+}]
+
+Included in setup fields' list : a
+
+Included in setup fields' list : b
+
+Included in setup fields' list : c
+
+Examining setup method for : Class1test.java
+
+Optional[{
+    d = 76868;
+    e = 24323.5;
+    f = "extended";
+}]
+
+Included in setup fields' list : d
+
+Included in setup fields' list : e
+
+Included in setup fields' list : f
+
+Examining setup method for : TestClass2.java
+
+Optional[{
+    tc1 = 665645543;
+    tc2 = 6765765678;
+}]
+
+Included in setup fields' list : tc1
+
+Included in setup fields' list : tc2
+
+Examining setup method for : LastExtendedTest.java
+
+Optional[{
+    last = "Not extended";
+}]
+
+Included in setup fields' list : last
+
+Number of test methods in the class : 3
+
+List of Test Methods for the class :
+
+@Test
+public void firstTestMethod() {
+    b = b * 45;
+    b += 2;
+    List<Class1test> newList = new List<Class1test>();
+    Class1test = new Class1test();
+    c = x + "okay";
+}
+
+List of Test Methods for the class :
+
+@Test
+public void secondTestMethod() {
+    Class1test obj;
+    a = a + 9;
+    c = c.reverse();
+    Class1test = new Class1test();
+    String dorkarNai = "dorkarNai";
+}
+
+List of Test Methods for the class :
+
+@Test
+public void thirdTestMethod() {
+    a = pow(a, 3);
+    b += 3.5;
+    assertEquals(c.size(), 5);
+}
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: a from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: a
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: d from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: d
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: e from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: e
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: f from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: f
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: tc1 from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: tc1
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: tc2 from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: tc2
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method firstTestMethod() has smell for variable: last from line no 15 to 22
+
+Method Containing Smell: firstTestMethod()
+
+Variable causing smell: last
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 22
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: b from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: b
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: d from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: d
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: e from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: e
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: f from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: f
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: tc1 from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: tc1
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: tc2 from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: tc2
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method secondTestMethod() has smell for variable: last from line no 24 to 32
+
+Method Containing Smell: secondTestMethod()
+
+Variable causing smell: last
+
+Start Point of Smell: Line number 24
+
+End Point of Smell: Line number 32
+
+
+
+
+
+
+
+
+Result String :
+
+Method thirdTestMethod() has smell for variable: d from line no 34 to 39
+
+Method Containing Smell: thirdTestMethod()
+
+Variable causing smell: d
+
+Start Point of Smell: Line number 34
+
+End Point of Smell: Line number 39
+
+
+
+
+
+
+
+
+Result String :
+
+Method thirdTestMethod() has smell for variable: e from line no 34 to 39
+
+Method Containing Smell: thirdTestMethod()
+
+Variable causing smell: e
+
+Start Point of Smell: Line number 34
+
+End Point of Smell: Line number 39
+
+
+
+
+
+
+
+
+Result String :
+
+Method thirdTestMethod() has smell for variable: f from line no 34 to 39
+
+Method Containing Smell: thirdTestMethod()
+
+Variable causing smell: f
+
+Start Point of Smell: Line number 34
+
+End Point of Smell: Line number 39
+
+
+
+
+
+
+
+
+Result String :
+
+Method thirdTestMethod() has smell for variable: tc1 from line no 34 to 39
+
+Method Containing Smell: thirdTestMethod()
+
+Variable causing smell: tc1
+
+Start Point of Smell: Line number 34
+
+End Point of Smell: Line number 39
+
+
+
+
+
+
+
+
+Result String :
+
+Method thirdTestMethod() has smell for variable: tc2 from line no 34 to 39
+
+Method Containing Smell: thirdTestMethod()
+
+Variable causing smell: tc2
+
+Start Point of Smell: Line number 34
+
+End Point of Smell: Line number 39
+
+
+
+
+
+
+
+
+Result String :
+
+Method thirdTestMethod() has smell for variable: last from line no 34 to 39
+
+Method Containing Smell: thirdTestMethod()
+
+Variable causing smell: last
+
+Start Point of Smell: Line number 34
+
+End Point of Smell: Line number 39
+
+
+
+
+
+
+Testing Ended for Class Class0Test.java
+
+*******************************************************
+
+
+
+
+File Path (BuildCompilationUnit) : C:\Users\noshi\Documents\Comic Life\TestSet\Class1Test.java
+
+Parent of the class: Class1test.java : TestClass2.java
+
+Parent of the class: TestClass2.java : LastExtendedTest.java
+
+List of setup methods: 
+
+
+Setup method for Class: Class1test.java 
+
+@Before
+public void setUp() throws Exception {
+    d = 76868;
+    e = 24323.5;
+    f = "extended";
+}
+
+
+Setup method for Class: TestClass2.java 
+
+@Before
+public void setUp() throws Exception {
+    tc1 = 665645543;
+    tc2 = 6765765678;
+}
+
+
+Setup method for Class: LastExtendedTest.java 
+
+@Before
+public void setUp() throws Exception {
+    last = "Not extended";
+}
+
+Examining setup method for : Class1test.java
+
+Optional[{
+    d = 76868;
+    e = 24323.5;
+    f = "extended";
+}]
+
+Included in setup fields' list : d
+
+Included in setup fields' list : e
+
+Included in setup fields' list : f
+
+Examining setup method for : TestClass2.java
+
+Optional[{
+    tc1 = 665645543;
+    tc2 = 6765765678;
+}]
+
+Included in setup fields' list : tc1
+
+Included in setup fields' list : tc2
+
+Examining setup method for : LastExtendedTest.java
+
+Optional[{
+    last = "Not extended";
+}]
+
+Included in setup fields' list : last
+
+Number of test methods in the class : 1
+
+List of Test Methods for the class :
+
+@Test
+public void classOneTestMethod() {
+    b = b * 45;
+    b += 2;
+    tc1 += 323123;
+    List<Class1test> newList = new List<Class1test>();
+    Class1test = new Class1test();
+    c = x + "okay";
+}
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: d from line no 15 to 23
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: d
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 23
+
+
+
+
+
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: e from line no 15 to 23
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: e
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 23
+
+
+
+
+
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: f from line no 15 to 23
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: f
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 23
+
+
+
+
+
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: tc2 from line no 15 to 23
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: tc2
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 23
+
+
+
+
+
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: last from line no 15 to 23
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: last
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 23
+
+
+
+
+
+
+Testing Ended for Class Class1test.java
+
+*******************************************************
+
+
+
+
+File Path (BuildCompilationUnit) : C:\Users\noshi\Documents\Comic Life\TestSet\LastExtendedtest.java
+
+List of setup methods: 
+
+
+Setup method for Class: LastExtendedTest.java 
+
+@Before
+public void setUp() throws Exception {
+    last = "Not extended";
+}
+
+Examining setup method for : LastExtendedTest.java
+
+Optional[{
+    last = "Not extended";
+}]
+
+Included in setup fields' list : last
+
+Number of test methods in the class : 0
+
+Testing Ended for Class LastExtendedTest.java
+
+*******************************************************
+
+
+
+
+File Path (BuildCompilationUnit) : C:\Users\noshi\Documents\Comic Life\TestSet\TestClass2.java
+
+Parent of the class: TestClass2.java : LastExtendedTest.java
+
+List of setup methods: 
+
+
+Setup method for Class: TestClass2.java 
+
+@Before
+public void setUp() throws Exception {
+    tc1 = 665645543;
+    tc2 = 6765765678;
+}
+
+
+Setup method for Class: LastExtendedTest.java 
+
+@Before
+public void setUp() throws Exception {
+    last = "Not extended";
+}
+
+Examining setup method for : TestClass2.java
+
+Optional[{
+    tc1 = 665645543;
+    tc2 = 6765765678;
+}]
+
+Included in setup fields' list : tc1
+
+Included in setup fields' list : tc2
+
+Examining setup method for : LastExtendedTest.java
+
+Optional[{
+    last = "Not extended";
+}]
+
+Included in setup fields' list : last
+
+Number of test methods in the class : 1
+
+List of Test Methods for the class :
+
+@Test
+public void classOneTestMethod() {
+    last = last + " used";
+}
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: tc1 from line no 14 to 19
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: tc1
+
+Start Point of Smell: Line number 14
+
+End Point of Smell: Line number 19
+
+
+
+
+
+
+
+
+Result String :
+
+Method classOneTestMethod() has smell for variable: tc2 from line no 14 to 19
+
+Method Containing Smell: classOneTestMethod()
+
+Variable causing smell: tc2
+
+Start Point of Smell: Line number 14
+
+End Point of Smell: Line number 19
+
+
+
+
+
+
+Testing Ended for Class TestClass2.java
+
+*******************************************************
+
+
+
+
+File Path (BuildCompilationUnit) : C:\Users\noshi\Documents\Comic Life\TestSet\testClassNotExtended.java
+
+List of setup methods: 
+
+
+Setup method for Class: testClassNotExtended.java 
+
+@Before
+public void setUp() throws Exception {
+    System.out.println(firstString);
+    firstString = "new";
+    secondString = "secondNew";
+}
+
+Examining setup method for : testClassNotExtended.java
+
+Optional[{
+    System.out.println(firstString);
+    firstString = "new";
+    secondString = "secondNew";
+}]
+
+Included in setup fields' list : firstString
+
+Included in setup fields' list : secondString
+
+Number of test methods in the class : 3
+
+List of Test Methods for the class :
+
+@Test
+public void StringFirstTest() {
+    assertEquals(firstString.size(), 5);
+}
+
+List of Test Methods for the class :
+
+@Test
+public void StringSecondTest() {
+    secondString += " addedNewString";
+    assertEquals(firstString.size(), 5);
+}
+
+List of Test Methods for the class :
+
+@Test
+public void StringThirdTest() {
+    secondString += " addedNewString";
+    firstString += "accha";
+    int ghghghgh = 0;
+    assertEquals(firstString.size(), 5);
+}
+
+
+
+Result String :
+
+Method StringFirstTest() has smell for variable: secondString from line no 15 to 20
+
+Method Containing Smell: StringFirstTest()
+
+Variable causing smell: secondString
+
+Start Point of Smell: Line number 15
+
+End Point of Smell: Line number 20
+
+
+
+
+
+
+Testing Ended for Class testClassNotExtended.java
+
+*******************************************************
+
+
+
+
+File Path (BuildCompilationUnit) : C:\Users\noshi\Documents\Comic Life\TestSet\TestNoSetup.java
+
+List of setup methods: 
+
+There is no setup method in this class
+
+Number of test methods in the class : 3
+
+List of Test Methods for the class :
+
+@Test
+public void methodNosetup1() {
+    assertEquals(nosetup1, 0);
+}
+
+List of Test Methods for the class :
+
+@Test
+public void methodNosetup2() {
+    int aaaa = 0;
+}
+
+List of Test Methods for the class :
+
+@Test
+public void methodNosetup3() {
+    assertEquals(a.size() + 1, b.size());
+}
+
+Testing Ended for Class TestNoSetup.java
+
+*******************************************************
+
+
+
